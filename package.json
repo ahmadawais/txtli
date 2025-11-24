@@ -1,0 +1,55 @@
+{
+  "name": "txtli",
+  "version": "0.0.1",
+  "description": "Convert folder contents to text for LLMs - instantly copy codebases to clipboard",
+  "type": "module",
+  "bin": {
+    "txtli": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "vitest",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "cli",
+    "text",
+    "llm",
+    "clipboard",
+    "ai",
+    "chatgpt",
+    "claude",
+    "code-to-text",
+    "folder-to-text",
+    "codebase",
+    "converter"
+  ],
+  "author": "Ahmad Awais <me@ahmadawais.com> (https://ahmadawais.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadawais/txtli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahmadawais/txtli/issues"
+  },
+  "homepage": "https://github.com/ahmadawais/txtli#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.8.2",
+    "clipboardy": "^4.0.0",
+    "commander": "^12.1.0"
+  }
+}
