@@ -1,4 +1,7 @@
-# txtli
+<img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/6867c640-7310-44a2-be5a-fc3d2ce80e85" />
+
+
+# `txtli`
 
 > Convert folder contents to text and copy to clipboard for LLMs
 
