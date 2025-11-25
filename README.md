@@ -152,7 +152,7 @@ MIT © [Ahmad Awais](https://ahmadawais.com)
 
 ## Author
 
-**Ahmad Awais** ([@MrAhmadAwais](https://twitter.com/MrAhmadAwais))
+**Ahmad Awais** ([@_AhmadAwais](https://twitter.com/_AhmadAwais))
 
 ---
 
